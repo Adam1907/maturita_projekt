@@ -22,13 +22,17 @@ Motor Driver Shield L293D
 ## HARMONOGRAM:
 ```
 Září: -Sehnáni hardwaru[x] -Zkouška propojení s bluetooth[x]
-Říjen: -Zprovoznění ovládání motorů[]
-Listopad:
-Prosinec:
+Říjen: -Zprovoznění ovládání motorů[] -Schéma zapojení[]
+Listopad: -Nosné zařízení[]
+Prosinec: -Doladění chyb[] -Sepsání dokumentace[]
 ```
 
 ### ZDROJE:
+[Data sheet: HC-05](https://components101.com/sites/default/files/component_datasheet/HC-05%20Datasheet.pdf)
+
+[Data sheet: Motor Driver Shield](https://5.imimg.com/data5/PX/UK/MY-1833510/l293d-based-arduino-motor-shield.pdf)
+
 [Tutoriál na pájení](https://www.youtube.com/watch?v=6rmErwU5E-k)
 
-[Návod: modul HC-05](https://www.youtube.com/watch?v=L13jJPg88EI)
+[Návod: Modul HC-05](https://www.youtube.com/watch?v=L13jJPg88EI)
 
