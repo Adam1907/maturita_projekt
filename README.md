@@ -3,29 +3,35 @@
 
 ### Autor: Adam Hajdík
 ### Konzultanti: Marcel Godovský
+
 ## CÍLE:
-```
+
 1. Dálkové ovládání pomocí telefonu
 2. Různé stupně rychlosti
 3. 3D tisknuý podvozek
 4. Zařízení pro přenos lehkých předmětů
-```
+
 
 
 ## HARDWARE:
-```
+
 Arduino UNO
+
 Bluetooth Modul HC-05
+
 Motor Driver Shield L293D
-```
+
 
 ## HARMONOGRAM:
-```
-Září: -Sehnáni hardwaru[x] -Zkouška propojení s bluetooth[x]
-Říjen: -Zprovoznění ovládání motorů[] -Schéma zapojení[]
-Listopad: -Nosné zařízení[]
-Prosinec: -Doladění chyb[] -Sepsání dokumentace[]
-```
+
+Září: -Sehnáni hardwaru&#9745; -Zkouška propojení s bluetooth&#9745;
+
+Říjen: -Zprovoznění ovládání motorů&#9744; -Schéma zapojení&#9744;
+
+Listopad: -Nosné zařízení&#9744;
+
+Prosinec: -Doladění chyb&#9744; -Sepsání dokumentace&#9744;
+
 
 ### ZDROJE:
 [Data sheet: HC-05](https://components101.com/sites/default/files/component_datasheet/HC-05%20Datasheet.pdf)
