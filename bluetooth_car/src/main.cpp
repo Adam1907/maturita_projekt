@@ -1,41 +1,10 @@
+#include <Arduino.h>
+
 char command; 
 const int IN1 = 7;
 const int IN2 = 6;
 const int IN3 = 5;
 const int IN4 = 4;
-
-void setup() 
-{  
-  pinMode (IN1, OUTPUT);
-  pinMode (IN2, OUTPUT);
-  pinMode (IN3, OUTPUT);
-  pinMode (IN4, OUTPUT);     
-  Serial.begin(9600);
-}
-
-void loop(){
-  if(Serial.available() > 0){ 
-    command = Serial.read(); 
-    Serial.println(command);
-    switch(command){
-    case '1':  
-      forward();
-      break;
-    case '2':  
-       backward();
-      break;
-    case '3':  
-       left();
-      break;
-    case '4':  
-       right();
-      break;
-    case '5':  
-       Stop();
-      break;
-    }
-  } 
-}
 
 void forward()
 {
@@ -81,4 +50,36 @@ void Stop()
   digitalWrite(IN4, LOW);
   Serial.println("STOP");
 }
-           
+
+void setup() 
+{  
+  pinMode (IN1, OUTPUT);
+  pinMode (IN2, OUTPUT);
+  pinMode (IN3, OUTPUT);
+  pinMode (IN4, OUTPUT);     
+  Serial.begin(9600);
+}
+
+void loop(){
+  if(Serial.available() > 0){ 
+    command = Serial.read(); 
+    Serial.println(command);
+    switch(command){
+    case '1':  
+      forward();
+      break;
+    case '2':  
+       backward();
+      break;
+    case '3':  
+       left();
+      break;
+    case '4':  
+       right();
+      break;
+    case '5':  
+       Stop();
+      break;
+    }
+  } 
+}
