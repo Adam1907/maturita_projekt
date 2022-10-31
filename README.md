@@ -19,14 +19,14 @@ Arduino UNO
 
 Bluetooth Modul HC-05
 
-Motor Driver Shield L293D
+L298N
 
 
 ## HARMONOGRAM:
 
 Září: -Sehnáni hardwaru&#9745; -Zkouška propojení s bluetooth&#9745;
 
-Říjen: -Zprovoznění ovládání motorů&#9744; -Schéma zapojení&#9744;
+Říjen: -Zprovoznění ovládání motorů&#9745; -Schéma zapojení&#9744;
 
 Listopad: -Nosné zařízení&#9744;
 
@@ -36,7 +36,7 @@ Prosinec: -Doladění chyb&#9744; -Sepsání dokumentace&#9744;
 ### ZDROJE:
 [Data sheet: HC-05](https://components101.com/sites/default/files/component_datasheet/HC-05%20Datasheet.pdf)
 
-[Data sheet: Motor Driver Shield](https://5.imimg.com/data5/PX/UK/MY-1833510/l293d-based-arduino-motor-shield.pdf)
+[Data sheet: L298N](https://components101.com/modules/l293n-motor-driver-module)
 
 [Tutoriál na pájení](https://www.youtube.com/watch?v=6rmErwU5E-k)
 
