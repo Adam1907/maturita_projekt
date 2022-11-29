@@ -1,3 +1,7 @@
+#include <Servo.h>
+
+
+Servo claw;
 char command; 
 const int IN1 = 7;
 const int IN2 = 6;
@@ -9,7 +13,8 @@ void setup()
   pinMode (IN1, OUTPUT);
   pinMode (IN2, OUTPUT);
   pinMode (IN3, OUTPUT);
-  pinMode (IN4, OUTPUT);     
+  pinMode (IN4, OUTPUT);
+  claw.attach(8);     
   Serial.begin(9600);
 }
 
@@ -33,6 +38,12 @@ void loop(){
     case '5':  
        Stop();
       break;
+    case '6':  
+       Open();
+      break; 
+    case '7':  
+       Close();
+      break;  
     }
   } 
 }
@@ -81,4 +92,13 @@ void Stop()
   digitalWrite(IN4, LOW);
   Serial.println("STOP");
 }
-           
+
+void Open()
+{
+  claw.write(90);
+}       
+
+void Close()
+{
+  claw.write(0);
+}        
