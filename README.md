@@ -2,7 +2,7 @@
 
 
 ### Autor: Adam Hajdík
-### Konzultanti: Marcel Godovský
+### Konzultanti: Marcel Godovský, Petr Grussmann
 
 ## CÍLE:
 
@@ -21,14 +21,17 @@ Bluetooth Modul HC-05
 
 L298N
 
+## SCHÉMA ZAPOJENÍ:
+
+![Screenshot](vehicle_scheme.png)
 
 ## HARMONOGRAM:
 
 Září: -Sehnáni hardwaru&#9745; -Zkouška propojení s bluetooth&#9745;
 
-Říjen: -Zprovoznění ovládání motorů&#9745; -Schéma zapojení&#9744;
+Říjen: -Zprovoznění ovládání motorů&#9745; -Schéma zapojení&#9745;
 
-Listopad: -Nosné zařízení&#9744;
+Listopad: -Nosné zařízení&#9744; -3D tisk komponentů&#9744;
 
 Prosinec: -Doladění chyb&#9744; -Sepsání dokumentace&#9744;
 
