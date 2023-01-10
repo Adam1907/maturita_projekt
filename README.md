@@ -33,7 +33,7 @@ Září: -Sehnáni hardwaru&#9745; -Zkouška propojení s bluetooth&#9745;
 
 Listopad: -Nosné zařízení&#9745; -3D tisk komponentů&#9745;
 
-Prosinec: -Doladění chyb&#9744; -Sepsání dokumentace&#9744;
+Prosinec: -Doladění chyb&#9745; -Sepsání dokumentace&#9745;
 
 
 ### ZDROJE:
